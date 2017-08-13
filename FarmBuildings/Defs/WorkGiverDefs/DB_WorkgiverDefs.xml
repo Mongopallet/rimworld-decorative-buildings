@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+
+	<WorkGiverDef>
+		<defName>DoBillsMakeBucket</defName>
+		<label>make bucket</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Smithing</workType>
+		<fixedBillGiverDefs>
+			<li>TableFarmWorkshop</li>	
+		</fixedBillGiverDefs>
+		 <priorityInType>116</priorityInType>
+		<verb>smith</verb>
+		<gerund>smithing at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>DoBillsMakeRope</defName>
+		<label>make rope</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Smithing</workType>
+		<fixedBillGiverDefs>
+			<li>TableFarmWorkshop</li>	
+		</fixedBillGiverDefs>
+		 <priorityInType>116</priorityInType>
+		<verb>smith</verb>
+		<gerund>smithing at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+</WorkGivers>

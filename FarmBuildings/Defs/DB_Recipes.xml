@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<RecipeDefs>
+	<RecipeDef>
+		<defName>MakeBucket</defName>
+		<label>make steel bucket</label>
+		<description>make a steel bucket from steel</description>
+		<jobString>Making bucket from steel</jobString>
+		<workAmount>500</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<Bucket>1</Bucket>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeRope</defName>
+		<label>make rope</label>
+		<description>make rope from haygrass</description>
+		<jobString>Twinning rope from hemp</jobString>
+		<workAmount>500</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hay</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<products>
+			<Rope>2</Rope>
+		</products>
+	</RecipeDef>
+	
+</RecipeDefs>

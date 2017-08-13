@@ -9,7 +9,7 @@
 		<designationCategory>Farm</designationCategory>
 		<Size>(2,3)</Size>
 		<graphicData>
-			<texPath>Things/Building/GrainSilo</texPath>
+			<texPath>Things/Building/Silo</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,3)</drawSize>
 		</graphicData>

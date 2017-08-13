@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+  
+	<ThingDef ParentName="BuildingBase">
+		<defName>GrainSilo</defName>
+		<label>grain silo</label>
+		<thingClass>Building</thingClass>
+		<description>A silo.\n\nSupplied by FK-Technologies</description>
+		<designationCategory>Farm</designationCategory>
+		<Size>(2,3)</Size>
+		<graphicData>
+			<texPath>Things/Building/GrainSilo</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,3)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>-22</Beauty>
+		</statBases>
+		<selectable>true</selectable>
+		<costList>
+			<Steel>100</Steel>
+			<WoodLog>150</WoodLog>
+		</costList>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>DecorativeBuildings</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+			<defName>WaterWell</defName>
+			<label>water well</label>
+			<thingClass>Building</thingClass>
+			<description>A well</description>
+			<designationCategory>Farm</designationCategory>
+			<Size>(2,2)</Size>
+			<graphicData>
+				<texPath>Things/Building/WaterWell</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>(2,2)</drawSize>
+			</graphicData>
+			<altitudeLayer>Building</altitudeLayer>
+			<passability>Impassable</passability>
+			<statBases>
+				<WorkToBuild>500</WorkToBuild>
+				<MaxHitPoints>100</MaxHitPoints>
+				<Flammability>1.0</Flammability>
+				<Beauty>10</Beauty>
+			</statBases>
+			<selectable>true</selectable>
+			<stuffCategories>
+				<li>Stony</li>
+			</stuffCategories>
+			<costStuffCount>40</costStuffCount>
+			<costList>
+				<WoodLog>100</WoodLog>
+			</costList>
+			<constructEffect>ConstructMetal</constructEffect>
+			<researchPrerequisites>
+				<li>DecorativeBuildings</li>
+			</researchPrerequisites>
+		</ThingDef>
+
+</Buildings>
